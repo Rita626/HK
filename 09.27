@@ -1,0 +1,18 @@
+Code Signal挑戰七
+使用Python，可以在一行中交換多個元素，並了解內置Python排序功能的效率。
+
+def simpleSort(arr):
+
+    n = len(arr)
+
+    for i in range(n):
+        j = 0
+        stop = n - i
+        while j < stop - 1:
+            if arr[j] > arr[j + 1]:
+                
+                swap = arr[j+1]
+                arr[j+1] = arr[j]
+                arr[j] = swap
+            j += 1
+    return arr
