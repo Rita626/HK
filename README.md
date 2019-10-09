@@ -8,7 +8,9 @@ Linked-list是由一連串的節點（Node）所構成。
 #每個節點指向下一個節點，而最後一個節點則指向Null（在python裡面是None）
 
 #實作可以分成兩個類別（class）：
+
 　☆ 包含了資料及指標兩個屬性的節點（class ListNode）
+ 
 　☆ 定義出各種資料結構操作的list本身（class SingleLinkedList）
 
 # Stack(後進先出)
