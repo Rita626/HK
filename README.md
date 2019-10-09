@@ -9,9 +9,13 @@ Linked-list是由一連串的節點（Node）所構成，每個節點指向下�
 
 # Stack
 #Push將資料放入Stack(把書放進箱子)
+
 #Pop把最上面的資料移除(把第一本書拿書來)
+
 #Top回傳最上面的資料(確認箱子最上面的書)
+
 #IsEmpty確認Stack是否有資料(確認箱中是否有書)
+
 #getSize回傳資料個數(紀錄箱子裡裝多少書)
 
 # Quick Sort
