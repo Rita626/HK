@@ -18,7 +18,7 @@ Linked-list是由一連串的節點（Node）所構成，每個節點指向下�
 
 #getSize回傳資料個數(紀錄箱子裡裝多少書)
 
-# Quick Sort
+# Quick Sort(左找大右找小)
 #取第一個元素（最左的數）為鍵值 key
 
 #由左向右（前向後）找一個數（第一個滿足的），其值大於等於 key 值，該數之索引為 left_pivot
