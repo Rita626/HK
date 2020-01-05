@@ -112,6 +112,8 @@ class Graph():
 
 # In[ ]:
 
-
+#參考資料:https://dev.to/mxl/dijkstras-algorithm-in-python-algorithms-for-beginners-dkc
+#參考資料:https://www.bogotobogo.com/python/python_Dijkstras_Shortest_Path_Algorithm.php
+#參考資料:https://www.codespeedy.com/how-to-implement-dijkstras-shortest-path-algorithm-in-python/
 
 
