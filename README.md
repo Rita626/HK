@@ -15,7 +15,7 @@
 # Week1:
 介紹課堂與工具
 
-[上課影片.(https://www.youtube.com/watch?v=LxvSt_jAWM4&feature=youtu.be)]
+[上課影片](https://www.youtube.com/watch?v=LxvSt_jAWM4&feature=youtu.be)
 
 # Week2
 Linked-list是由一連串的節點（Node）所構成。
