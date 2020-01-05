@@ -1,4 +1,14 @@
+#!/usr/bin/env python
+# coding: utf-8
+
+# In[1]:
+
+
 from collections import defaultdict
+
+
+# In[35]:
+
 
 class Graph(): 
 
@@ -57,8 +67,51 @@ class Graph():
                 out[str(x)]= way[x]
                 
         return out
-    
+            
     def Kruskal(self):
-        """
+         """
         :rtype: dict
         """
+
+
+# In[36]:
+
+
+#g =Graph(4)
+#g.addEdge(0, 1, 10)
+#g.addEdge(0, 2, 6)
+#g.addEdge(0, 3, 5)
+#g.addEdge(1, 3, 15)
+#g.addEdge(2, 3, 4)
+#print(g)
+
+
+# In[37]:
+
+
+#g = Graph(9)
+#g.graph = [[0, 4, 0, 0, 0, 0, 0, 8, 0], 
+#           [4, 0, 8, 0, 0, 0, 0, 11, 0], 
+#           [0, 8, 0, 7, 0, 4, 0, 0, 2], 
+#           [0, 0, 7, 0, 9, 14, 0, 0, 0], 
+#           [0, 0, 0, 9, 0, 10, 0, 0, 0], 
+#           [0, 0, 4, 14, 10, 0, 2, 0, 0], 
+#           [0, 0, 0, 0, 0, 2, 0, 1, 6], 
+#           [8, 11, 0, 0, 0, 0, 1, 0, 7], 
+#           [0, 0, 2, 0, 0, 0, 6, 7, 0]];
+#print("Dijkstra",g.Dijkstra(0))
+
+#g =Graph(4)
+#g.addEdge(0, 1, 10)
+#g.addEdge(0, 2, 6)
+#g.addEdge(0, 3, 5)
+#g.addEdge(1, 3, 15)
+#g.addEdge(2, 3, 4)
+#print("Kruskal",g.Kruskal())
+
+
+# In[ ]:
+
+
+
+
