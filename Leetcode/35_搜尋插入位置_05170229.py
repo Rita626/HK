@@ -13,5 +13,4 @@ class Solution:
 
 #採用最直觀的方式，判斷target是否存在於list
 #存在直接顯示其排序，不存在則加入並排序list後再次尋找target並顯示排序
-
 #結果：通過，用時44ms，消耗內存13.3MB
