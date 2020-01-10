@@ -17,8 +17,8 @@ class Solution(object):
                 else:
                     c.append(i)
         #將兩邊數列再重複排序
-        a = quick_sort(a)
-        b = quick_sort(b)
+        a = Solution.Quick_sort(a)
+        b = Solution.Quick_sort(b)
         sort = a+c+b
         
         return sort
