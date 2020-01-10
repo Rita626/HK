@@ -1,6 +1,5 @@
 class Solution(object):
-    def Quick_sort(self,list): 
-        self.list = list
+    def Quick_sort(list): 
         a = [] #存放比key小的數值
         b = [] #存放比key大的數值
         c = [] #存放與key相同數值
