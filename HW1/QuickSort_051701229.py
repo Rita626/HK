@@ -19,7 +19,7 @@ class Solution(object):
                 c.append(i)
 
     #將兩邊數列再重複排序
-    a = quick_sort(smaller)
-    b = quick_sort(bigger)
+    a = quick_sort(a)
+    b = quick_sort(b)
     sort = a+c+b
     return sort
